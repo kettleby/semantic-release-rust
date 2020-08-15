@@ -95,7 +95,7 @@ jobs:
             uses: peter-evans/create-pull-request@v3.1.0
             if: steps.semantic.outputs.new_release_published == 'true'
             with:
-                token: ${{ secretes.SEMRELGH }}
+                token: ${{ secrets.SEMRELGH }}
                 commit-message: 'chore(release): version ${{ steps.semantic.ouputs.new_release_version }}'
                 committer: sbosnick-bot <sbosnick@gmail.com>
                 author: sbosnick-bot <sbosnick@gmail.com>
