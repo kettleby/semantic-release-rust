@@ -1,0 +1,18 @@
+[package]
+edition = "2018"
+name = "kettleby_semantic-release-rust"
+version = "0.0.0"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = "1"
+napi-derive = "1"
+
+[build-dependencies]
+napi-build = "1"
+
+[profile.release]
+lto = true

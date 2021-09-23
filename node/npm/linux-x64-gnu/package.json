@@ -1,0 +1,16 @@
+{
+  "name": "@kettleby/semantic-release-rust-linux-x64-gnu",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "semantic-release-rust.linux-x64-gnu.node",
+  "files": [
+    "semantic-release-rust.linux-x64-gnu.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}

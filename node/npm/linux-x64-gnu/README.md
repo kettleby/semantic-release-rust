@@ -1,0 +1,3 @@
+# `@kettleby/semantic-release-rust-linux-x64-gnu`
+
+This is the **x86_64-unknown-linux-gnu** binary for `@kettleby/semantic-release-rust`

@@ -1,0 +1,16 @@
+{
+  "name": "@kettleby/semantic-release-rust-darwin-x64",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "semantic-release-rust.darwin-x64.node",
+  "files": [
+    "semantic-release-rust.darwin-x64.node"
+  ],
+  "engines": {
+    "node": ">= 10"
+  }
+}
